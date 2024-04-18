@@ -1,8 +1,5 @@
 //
 //  SceneDelegate.swift
-//  KeyChain_Practice
-//
-//  Created by coda on 2022/01/10.
 //
 
 import UIKit

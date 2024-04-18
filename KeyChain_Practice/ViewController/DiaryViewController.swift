@@ -1,19 +1,17 @@
 //
 //  DiaryViewController.swift
-//  KeyChain_Practice
 //
-//  Created by coda on 2022/01/11.
-//
+
 
 import UIKit
 
 class DiaryViewController: UIViewController {
-
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func saveDiary(_ sender: Any) {
+        // 일기 내용을 저장합니다.
     }
 }

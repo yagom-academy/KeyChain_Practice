@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF54E397278D2F8800CBB23D /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54E396278D2F8800CBB23D /* DiaryViewController.swift */; };
 		CF9E589B278BC93400FFFB9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E589A278BC93400FFFB9D /* AppDelegate.swift */; };
 		CF9E589D278BC93400FFFB9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E589C278BC93400FFFB9D /* SceneDelegate.swift */; };
-		CF9E589F278BC93400FFFB9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E589E278BC93400FFFB9D /* ViewController.swift */; };
+		CF9E589F278BC93400FFFB9D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E589E278BC93400FFFB9D /* LogInViewController.swift */; };
 		CF9E58A2278BC93400FFFB9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9E58A0278BC93400FFFB9D /* Main.storyboard */; };
 		CF9E58A4278BC93500FFFB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9E58A3278BC93500FFFB9D /* Assets.xcassets */; };
 		CF9E58A7278BC93500FFFB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9E58A5278BC93500FFFB9D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF54E396278D2F8800CBB23D /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		CF9E5897278BC93400FFFB9D /* KeyChain_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyChain_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E589A278BC93400FFFB9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF9E589C278BC93400FFFB9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF9E589E278BC93400FFFB9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF9E589E278BC93400FFFB9D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		CF9E58A1278BC93400FFFB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF9E58A3278BC93500FFFB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF9E58A6278BC93500FFFB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF54E39B278D307A00CBB23D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF9E589E278BC93400FFFB9D /* LogInViewController.swift */,
+				CF54E396278D2F8800CBB23D /* DiaryViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		CF9E588E278BC93400FFFB9D = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +67,9 @@
 		CF9E5899278BC93400FFFB9D /* KeyChain_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				CF54E39B278D307A00CBB23D /* ViewController */,
 				CF9E589A278BC93400FFFB9D /* AppDelegate.swift */,
 				CF9E589C278BC93400FFFB9D /* SceneDelegate.swift */,
-				CF9E589E278BC93400FFFB9D /* ViewController.swift */,
 				CF9E58A0278BC93400FFFB9D /* Main.storyboard */,
 				CF9E58A3278BC93500FFFB9D /* Assets.xcassets */,
 				CF9E58A5278BC93500FFFB9D /* LaunchScreen.storyboard */,
@@ -138,8 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF9E589F278BC93400FFFB9D /* ViewController.swift in Sources */,
+				CF9E589F278BC93400FFFB9D /* LogInViewController.swift in Sources */,
 				CF9E589B278BC93400FFFB9D /* AppDelegate.swift in Sources */,
+				CF54E397278D2F8800CBB23D /* DiaryViewController.swift in Sources */,
 				CF9E589D278BC93400FFFB9D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
