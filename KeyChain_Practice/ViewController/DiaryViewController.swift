@@ -1,19 +1,19 @@
 //
-//  ViewController.swift
+//  DiaryViewController.swift
 //  KeyChain_Practice
 //
-//  Created by coda on 2022/01/10.
+//  Created by coda on 2022/01/11.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class DiaryViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
-
 }
-
